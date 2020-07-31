@@ -1,0 +1,21 @@
+{
+  "name": "smsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "fast-two-sms": "^2.1.0"
+  },
+  "devDependencies": {
+    "devmon": "0.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
